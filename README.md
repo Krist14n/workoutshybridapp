@@ -1,26 +1,15 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+This is an Ionic Hybrid app to create workouts and save them in mLab[Ionic](http://ionicframework.com/docs/).
 
-## How to use this template
+## How to Install
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/driftyco/ionic2-app-base).
+Install cordova
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/driftyco/ionic2-app-base).
+$ npm install -g ionic cordova
 
-### With the Ionic CLI:
+$ git clone git@github.com:Krist14n/workoutshybridapp.git
+$ cd workoutshybridapp
+$ ionic serve
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
 
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myTabs tabs
-```
-
-Then, to run it, cd into `myTabs` and run:
-
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
-
-Substitute ios for android if not on a Mac.
+Follow instrucitions on Ionic Documentation to deploy 
 
